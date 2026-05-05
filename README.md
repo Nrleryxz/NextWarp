@@ -76,7 +76,7 @@ warps: {}
 ./gradlew clean build
 ```
 
-The compiled JAR will be located in `build/libs/`..
+The compiled JAR will be located in `build/libs/`.
 
 ## Author
 
