@@ -1,0 +1,42 @@
+settings:
+  teleport-sound: ENTITY_ENDERMAN_TELEPORT
+  teleport-sound-volume: 0.6
+  teleport-sound-pitch: 1.0
+  teleport-failed-sound: ENTITY_VILLAGER_NO
+  teleport-cancelled-sound: BLOCK_NOTE_BLOCK_BASS
+  teleport-delay-seconds: 5
+  cancel-on-move: true
+  cancel-move-distance: 0.1
+  countdown-sound: BLOCK_NOTE_BLOCK_PLING
+  countdown-particle: PORTAL
+  countdown-particle-count: 12
+  teleport-success-particle: PORTAL
+  teleport-success-particle-count: 30
+  warp-created-sound: BLOCK_NOTE_BLOCK_CHIME
+  warp-deleted-sound: BLOCK_NOTE_BLOCK_HAT
+  warp-not-found-sound: BLOCK_NOTE_BLOCK_BASS
+  reload-sound: BLOCK_NOTE_BLOCK_BIT
+
+messages:
+  no-permission: "&cɴᴏ ᴘᴇʀᴍɪssɪᴏɴ."
+  player-only: "&cᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ғᴏʀ ᴘʟᴀʏᴇʀs ᴏɴʟʏ."
+  reloaded: "&7ᴄᴏɴғɪɢ ʀᴇʟᴏᴀᴅᴇᴅ."
+
+  teleport:
+    count: "&7ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ: &5{countdown} &7sᴇᴄᴏɴᴅs"
+    success: "&7sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ ᴛᴏ &5{warp}&7"
+    failed: "&cᴛᴇʟᴇᴘᴏʀᴛ ғᴀɪʟᴇᴅ!"
+    cancelled: "&cᴛᴇʟᴇᴘᴏʀᴛ ᴄᴀɴᴄᴇʟʟᴇᴅ!"
+
+  warp:
+    usage: "&cᴜsᴀɢᴇ: /warp (ɴᴀᴍᴇ)"
+    destinations-prefix: "&cᴡᴀʀᴘs: "
+    created: "&7ᴡᴀʀᴘ ᴄʀᴇᴀᴛᴇᴅ: #37BEF8{warp}"
+    deleted: "&7ᴡᴀʀᴘ ᴅᴇʟᴇᴛᴇᴅ: #37BEF8{warp}"
+    not-found: "&cᴡᴀʀᴘ ɴᴏᴛ ғᴏᴜɴᴅ: #37BEF8{warp}"
+    empty: "&cɴᴏ ᴡᴀʀᴘs sᴇᴛ."
+
+insta_tp:
+  - Spawn
+
+warps: {}

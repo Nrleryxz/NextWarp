@@ -1,0 +1,19 @@
+name: NextWarp
+version: 1.0.0
+main: me.Nrleryx.NextWarp
+api-version: '1.20'
+author: Nrleryx
+folia-supported: true
+description: Simple warp system.
+
+commands:
+  warp:
+    usage: /warp <name>
+  warps:
+    usage: /warps
+  setwarp:
+    usage: /setwarp <name>
+  delwarp:
+    usage: /delwarp <name>
+  nextwarp:
+    usage: /nextwarp reload
